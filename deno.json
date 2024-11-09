@@ -11,5 +11,13 @@
     "@nestjs/common": "npm:@nestjs/common@^10.4.7",
     "@nestjs/core": "npm:@nestjs/core@^10.4.7",
     "@nestjs/platform-express": "npm:@nestjs/platform-express@^10.4.7"
+  },
+  "deploy": {
+    "project": "90c8add2-480d-4f26-8385-c99d7fc560f7",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
   }
 }
